@@ -1,8 +1,73 @@
 @media (width>768px){
+    .mother {
+        background-image: url(/assets/backhead.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        
+    }
     header {
         background-image: url(/assets/figureheader.svg);
         background-repeat: no-repeat;
-        background-position: right 100%;
+        background-position:  right 0;
         height: 350px;
+    }
+    .eq {
+        margin-top: 61px;
+        margin-left:  40px;
+    }
+    .ketamini1 {
+        position: absolute;
+        margin-top: 30px;
+    }
+    #k3 {
+        margin-left: 39px ;
+        margin-top: 100px;
+        width: 520px;
+        font-size: 64px;
+        font-weight: 700;
+    }
+    #k4 {
+        margin-left: 45px ;
+        margin-top: 28px;
+        width: 514px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px; 
+    }
+    #firstbox {
+        width: 696px;
+        height: 600px;
+    }
+    .iphoneimg {
+        padding-top: 111px;
+        margin-left: -280px;
+    }
+    #secondorangebox {
+        position: absolute;
+        margin-top: 600px;
+        margin-left: 120px;
+        width: 399px;
+        height: 546px;
+    }
+    .footer {
+        padding-top: 170px;
+        display: grid;
+        place-items: center;
+        grid-template-areas:"erti erti erti otxi"
+                            "ori ori ori otxi"
+                            "sami sami sami otxi";
+    }
+    .footeq {
+        grid-area: erti;
+    }
+    .meoretxt {
+        grid-area: ori;
+    }
+    .mailadd {
+        grid-area: sami;
+        margin-bottom: 80px;
+    }
+    .nets {
+        grid-area: otxi;
     }
 }
