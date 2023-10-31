@@ -3,7 +3,6 @@
         background-image: url(/assets/backhead.svg);
         background-repeat: no-repeat;
         background-size: contain;
-        
     }
     header {
         background-image: url(/assets/figureheader.svg);
@@ -69,5 +68,75 @@
     }
     .nets {
         grid-area: otxi;
+    }
+}
+@media (width > 1440px) {
+    .mother {
+        background-size:cover;
+    }
+    .eq {
+        margin-left:165px;
+    }
+    #k3 {
+        margin-left:165px;
+        width: 1015px;
+        font-size: 88px;
+        font-weight: 700;
+        line-height: 88px; 
+        letter-spacing: -1px;
+    }
+    #k4 {
+        margin-left:165px;
+        width: 825px;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 34px;
+    }
+    #firstbox {
+        margin-left: 60px;
+        width: 1110px;
+        height: 600px;
+    }
+    .iphoneimg {
+        padding-top: 183px;
+        margin-left: -280px;
+    }
+    #secondorangebox {
+        width: 446px;
+        height: 625px;
+        margin-left: 650px;
+    }
+    .sb1 {
+        width: 333px;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 52px;
+    }
+    .sb2 {
+        width: 333px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 34px;
+    }
+    .sb3 {
+        font-size: 65px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 52px;
+    }
+    .sb4 {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: -0.2px;
+    }
+    .but1 {
+        width: 333px;
+        height: 61px;
+    }
+    .but2 {
+        width: 333px;
+        height: 61px;
     }
 }
