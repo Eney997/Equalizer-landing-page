@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-image: url(/assets/blueback.svg),
+                    url(/assets/orangeback.svg);
+                    background-repeat: no-repeat;
+                    background-position: right 0;
+}
+.mother {
+    display: grid;
+}
+.eq {
+    padding-left: 24px;
+    padding-top: 40px;
+}
+.ketamini1 {
+    padding-top: 64px;
+    padding-left: 24px;
+}
+.k1 {
+    width: 327px;
+    color: #191826;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.455px;
+}
+.k2 {
+    margin-top: 20px;
+    width: 327px;
+    color: #191826;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.ketamini2 {
+    display: grid;
+    place-items: center;
+}
+.iphoneimg {
+    z-index: 1;
+    margin-top: 68px;
+}
+.firstbox {
+    z-index: 0;
+    margin-top: -330px;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 600px;
+    border-radius: 12px;
+    background: #191826;
+}
+.blackboxinsideimg {
+    display: grid;
+    margin-top: -180px;
+    
+}
+.secondboxorange {
+    display: grid;
+    place-items: center;
+    z-index: 3;
+    margin-top: -210px;
+    width: 100%;
+    height: 546px;
+    border-radius: 12px;
+    background: #FA7453;
+}
+.sb1 {
+    padding-top: 48px;
+    width: 302px;
+    color: #FCFAF9;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+.sb2 {
+    padding-top: 12px;
+    width: 302px;
+    color: #FCFAF9;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+.sb3 {
+    padding-top:36px;
+    color: #FCFAF9;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+}
+.sb4 {
+    color: #FCFAF9;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+    letter-spacing: -0.2px;
+}
+.but1 {
+    margin-top: 32px;
+    width: 296px;
+    height: 61px;
+    border-radius: 12px;
+    background: #191826;
+}
+.but1:hover {
+    border-radius: 12px;
+    background: #66E2DC;
+}
+.iosdwl {
+    color: #FCFAF9;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+}
+.but2 {
+    margin-top: 16px;
+    margin-bottom: 48px;
+    width: 296px;
+    height: 61px;
+    border-radius: 12px;
+    background: #FCFAF9;
+}
+.but2:hover {
+    border-radius: 12px;
+    background: #FFB964;
+}
+.andrdwl {
+    color: #191826;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+}
+.footer {
+   display: grid;
+   place-items: center ;
+}
+.footeq {
+    padding-top: 64px;
+    padding-right: 185px;
+}
+.meoretxt {
+    padding-top: 32px;
+    width: 327px;
+    color: #191826;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+}
+.mailadd {
+    width: 327px;
+    color: #191826;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+.nets {
+    padding-top: 64px;
+    padding-bottom: 80px;
+    padding-right: 215px;
+}
+
