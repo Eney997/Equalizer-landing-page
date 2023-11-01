@@ -109,6 +109,7 @@ body {
     letter-spacing: -0.2px;
 }
 .but1 {
+    cursor: pointer;
     margin-top: 32px;
     width: 296px;
     height: 61px;
@@ -116,6 +117,7 @@ body {
     background: #191826;
 }
 .but1:hover {
+    cursor: pointer;
     border-radius: 12px;
     background: #66E2DC;
 }
@@ -129,6 +131,7 @@ body {
     letter-spacing: -0.18px;
 }
 .but2 {
+    cursor: pointer;
     margin-top: 16px;
     margin-bottom: 48px;
     width: 296px;
@@ -137,6 +140,7 @@ body {
     background: #FCFAF9;
 }
 .but2:hover {
+    cursor: pointer;
     border-radius: 12px;
     background: #FFB964;
 }
