@@ -71,6 +71,10 @@
     }
 }
 @media (width > 1440px) {
+    header {
+        background-image: url(/assets/Group\ Copy.svg);
+        height: 430px;
+    }
     .mother {
         background-size:cover;
     }
