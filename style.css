@@ -115,6 +115,8 @@ body {
     height: 61px;
     border-radius: 12px;
     background: #191826;
+    outline: none;
+    border: none;
 }
 .but1:hover {
     cursor: pointer;
@@ -138,6 +140,8 @@ body {
     height: 61px;
     border-radius: 12px;
     background: #FCFAF9;
+    outline: none;
+    border: none;
 }
 .but2:hover {
     cursor: pointer;
